@@ -1,0 +1,15 @@
+brighthomefurnitures/
+├── client/             # React.js frontend
+│   ├── public/         # Static assets like images, icons
+│   ├── src/
+│   │   ├── components/ # Navbar, Footer, ProductCard etc.
+│   │   ├── pages/      # Home, Product, Cart, Checkout etc.
+│   │   └── App.jsx     # Main routing file
+├── server/             # Express.js backend
+│   ├── routes/         # API endpoints (product, cart etc.)
+│   ├── models/         # Mongoose schemas
+│   ├── controllers/    # Business logic
+│   └── server.js       # Entry file for backend
+├── .gitignore
+├── README.md
+└── package.json
